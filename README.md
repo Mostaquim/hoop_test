@@ -18,4 +18,10 @@ Front-end
 3. npm run start
 
 Visit http://localhost:3000/ to test the prototype 
-The app uses an rest api at ....##>....#
+The app uses an rest api at http://localhost:8000/api/activity/ 
+
+The way this app work is, 
+It saves data in App's State on input change
+Created An ServiceApi that will fetch and save data in Djangobackend.
+
+The backend sits on Django rest api 
