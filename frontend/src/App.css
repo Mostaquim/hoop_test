@@ -185,7 +185,12 @@ p.error {
   color: #d04848;
 }
 @media only screen and (max-width: 728px) {
-  body, html, #root, .main {
+  html {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  body, #root, .main {
+    overflow-x: hidden;
     min-height: unset;
     background: #f1f3f6;
     width: 100%;
@@ -193,6 +198,7 @@ p.error {
     margin: 0;
     padding: 0;
 }
+
   body {
     background-color: lightblue;
   }
@@ -236,5 +242,8 @@ p.error {
   }
   .footer {
     padding: 24px;
+  }
+  .footer-container{
+    height: unset;
   }
 }
