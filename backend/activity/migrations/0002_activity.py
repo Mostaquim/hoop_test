@@ -36,7 +36,7 @@ def create_data(apps, schema_editor):
         Address(buildingName=d['buildingName'],
                 buildingUnit=d['buildingUnit'],
                 placeName='',
-                postCode=d['postcode'],
+                postcode=d['postcode'],
                 streetName=d['streetName'],
                 streetNumber=d['streetNumber'],
                 town=d['town'],
